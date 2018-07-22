@@ -1,0 +1,13 @@
+DROP TABLE logs IF EXISTS;
+CREATE TABLE logs
+(
+	id VARCHAR(255) PRIMARY KEY,
+	duration INTEGER, 
+	type VARCHAR(255),
+	host VARCHAR(255),
+	alert BOOLEAN
+);
+
+
+
+
